@@ -2,9 +2,9 @@
 
 ## Contacts
 
-- [GitHub] : (<https://github.com/liakh83>)
+- GitHub :[liakh83](https://github.com/liakh83)
 
-- [E-mail] : (<lahn4573@gmail.com>)
+- E-mail : <lahn4573@gmail.com>
 
 ---
 
