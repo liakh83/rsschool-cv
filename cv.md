@@ -46,3 +46,18 @@ Hi, I started studying software a year ago on YouTube videos. Now, when I sit do
     <h1>Heading</h1>
     <h2>Text block 1</h2>
 ```
+
+---
+
+## Education
+
+- Belarusian National Technical University
+- Course RSSCHOOL (in a procession)
+
+---
+
+## Languages
+
+- English - A1 (A2-in a procession)
+
+---
