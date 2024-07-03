@@ -7,10 +7,12 @@
 @font-face {
   font-family: "Barlow", sans-serif;
   src: url(assets/fonts/Barlow/Barlow-Light.ttf);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -20,33 +22,21 @@ html {
 
 body {
   font-family: "Barlow", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 800px;
   margin: 0 auto;
-}
-
-.header {
   border-bottom: 1px solid black;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.main {
-  border: 1px solid red;
 }
 
 .footer {
-  border: 1px solid red;
+  border-top: 1px solid black;
 }
 
 .nav-list {
@@ -68,4 +58,84 @@ body {
   background-color: black;
   color: white;
   padding: 3px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px;
+  border-bottom: 5px solid black;
+}
+
+.profile-avatar {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.profile-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.title-1 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  letter-spacing: 10px;
+  word-spacing: 3px;
+}
+
+.title-2 {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  
+}
+
+.list {
+  position: relative;
+  list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.contact-link:hover {
+  color: aquamarine;
+}
+
+.item {
+  padding: 5px 0;
+  
+}
+
+.section {
+  width: 50%;
+  padding: 10px;
+}
+
+.list-item {
+  padding-bottom: 5px;
+}
+
+.code {
+ padding: 0;
+ margin: 0;
 }

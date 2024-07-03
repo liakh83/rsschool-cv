@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/img/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
   </head>
   <body>
-    <header class="header">
+    <header>
       <div class="container">
         <nav>
           <ul class="nav-list">
@@ -23,13 +23,48 @@
         </nav>
       </div>
     </header>
-    <main class="main">
+    <main>
       <div class="container main-container">
-        <section class="section-pofile" id="profile">
-          <img src="assets/img/avatar.png" alt="My avatar" class="profile-avatar"> 
-
+        <section class="section-profile">
+          <img src="assets/img/profile.png" alt="My avatar" class="profile-avatar">
+          <div class="profile-contact">
+            <h1 class="title-1">Vladimir Liakh</h1>
+            <h2 class="title-2">Contacts</h2>
+            <ul class="list" id="contacts">
+              <li class="item">GitHub:<a href="https://github.com/liakh83" class="contact-link">@liakh83</a></li>
+              <li class="item">Discord:<a href="https://discord.gg/zUr7wWYPXE" class="contact-link">liakh83_69922</a></li>
+              <li class=" item">Email:<a href="mailto:lahn4573@gmail.com" class="contact-link">lahn4573@gmail.com</a></li>
+            </ul>
+          </div>
+        </section>
+          <section class="section" id="about_me">
+            <h2 class="title-2">About me</h2>
+            <p>
+              I love writing code, to find and fix bugs in it. Most often they
+              are banal and ridiculous, but finding them takes time. In time, I
+              will learn to write clean code.
+            </p>
+          </section>
+        <section class="section" id="code_example">
+          <h2 class="title-2">Code Example</h2>
+          <pre class="code">
+            <code>
+              function doubleInteger (:) {
+                return i * 2 ;
+              }
+            </code>
+          </pre>
         </section>
 
+
+          <section class="section" id="skills">
+            <h2 class="title-2">Skills</h2>
+            <ul class="list">
+              <li class="list-item">HTML 5</li>
+              <li class="list-item">CSS 3</li>
+              <li class="list-item">Git, GitHub</li>
+            </ul>
+          </section>
       </div>
     </main>
     <footer class="footer"></footer>
