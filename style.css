@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Barlow", sans-serif;
+  src: url(assets/fonts/Barlow/Barlow-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Barlow", sans-serif;
+  src: url(assets/fonts/Barlow/Barlow-Light.ttf);
+  font-weight: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border-bottom: 2px solid black;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: black;
+  color: white;
+  padding: 3px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px;
+  border-bottom: 5px solid black;
+}
+
+.profile-avatar {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.profile-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.title-1 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  letter-spacing: 10px;
+  word-spacing: 3px;
+}
+
+.title-2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  color: gray;
+}
+
+.list {
+  position: relative;
+  list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.contact-link:hover {
+  color: aquamarine;
+}
+
+.item {
+  padding: 5px 0;
+}
+
+.section {
+  width: calc(50% - 20px);
+  padding: 10px;
+  border-bottom: 2px solid grey;
+}
+
+.list-item {
+  padding-bottom: 5px;
+}
+
+.code {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: beige;
+  border-top: 3px solid black ;
+}
+
+p {
+  line-height: 25px;
+}
+
+.section-border {
+  border-bottom: 0;
+} 
