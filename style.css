@@ -32,11 +32,6 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  border-bottom: 1px solid black;
-}
-
-.footer {
-  border-top: 1px solid black;
 }
 
 .nav-list {
@@ -44,6 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   list-style: none;
+  border-bottom: 2px solid black;
 }
 
 .nav-link {
@@ -85,7 +81,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  
 }
 
 .title-1 {
@@ -99,11 +94,11 @@ body {
 
 .title-2 {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
   padding: 10px;
   letter-spacing: 2px;
   word-spacing: 3px;
-  
+  color: gray;
 }
 
 .list {
@@ -123,12 +118,12 @@ body {
 
 .item {
   padding: 5px 0;
-  
 }
 
 .section {
-  width: 50%;
+  width: calc(50% - 20px);
   padding: 10px;
+  border-bottom: 2px solid grey;
 }
 
 .list-item {
@@ -136,6 +131,22 @@ body {
 }
 
 .code {
- padding: 0;
- margin: 0;
+  padding: 0;
+  margin: 0;
 }
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: beige;
+  border-top: 3px solid black ;
+}
+
+p {
+  line-height: 25px;
+}
+
+.section-border {
+  border-bottom: 0;
+} 
